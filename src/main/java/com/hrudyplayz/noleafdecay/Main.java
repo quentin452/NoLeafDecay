@@ -16,7 +16,7 @@ import net.minecraft.util.EnumChatFormatting;
 import net.minecraftforge.common.MinecraftForge;
 
 
-@Mod(modid = ModProperties.MODID, useMetadata = true, version = ModProperties.VERSION, name = ModProperties.NAME, dependencies = "required-after:MysteriumLib")
+@Mod(modid = ModProperties.MODID, useMetadata = true, version = ModProperties.VERSION, name = ModProperties.NAME)
 public class Main {
     @Instance(ModProperties.MODID)
     public static Main instance;
